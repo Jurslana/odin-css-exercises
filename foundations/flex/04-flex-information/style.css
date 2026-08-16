@@ -7,10 +7,27 @@ img {
   height: 100px;
 }
 
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
+
+.images-texts{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 52px;
+  
+}
+
+.flowers{
+  max-width: 200px;
+}
+
 
 /* do not edit this footer */
 .footer {
